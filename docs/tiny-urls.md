@@ -25,6 +25,8 @@ customID: mi-url
 Resultado => http://su-dominio.com/mi-url
 
 ```
+Al resultado puede agregarle un [boton de "copy"](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
+
 
 Mockup:
 
