@@ -1,20 +1,16 @@
 version: "3.7"
 
-networks:
-  net:
-    attachable: true
 
 services:
   redis:
     image: redis:alpine
     ports:
       - 6379:6379
-    networks:
-      - net
   app:
     image: tiny-url:latest
-    build: .
+    build:
+      context: .
     environment:
       - REDIS_HOST=redis
-    networks:
-      - net
+    ports:
+      - 5000:5000

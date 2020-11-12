@@ -11,6 +11,8 @@ Haremos un creador de tiny url (URL shortener), aplicaremos conceptos de CS como
 - HTTP verbs
 - HTTP responses
 
+> usara la libreria [redis](https://pypi.org/project/redis/) para trabajar
+
 ---
 ## App
 
