@@ -1,7 +1,11 @@
 site_name: Tiny URL
 
 nav:
-  - Explicación: index.md
+  - Explicación:
+      Index: index.md
+      Tiny URLS: tiny-urls.md
+      URL list: url-list.md
+      Stats: stats.md
   - Run: run.md
   - Entrega: entrega.md
 
@@ -17,7 +21,8 @@ theme:
     code: "Inconsolata"
   language: "en"
   favicon: "img/favicon.ico"
-  #include_sidebar: True
+  features:
+    - navigation.tabs
 
 plugins:
   - search
@@ -27,8 +32,8 @@ markdown_extensions:
   - footnotes
   - admonition
   - meta
-  # - toc:
-  #     permalink: true
+  - toc:
+      permalink: true
   # - pymdownx.tasklist:
   #     custom_checkbox: true
   - pymdownx.mark
