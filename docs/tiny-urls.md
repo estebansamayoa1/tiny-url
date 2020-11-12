@@ -49,7 +49,7 @@ App: recibe [http://su-dominio.com/mi-url]
 Browser: [redirect] www.google.com
 ```
 
-## Ejemplos:
+## Ejemplos
 
 - [https://tinyurl.com/](https://tinyurl.com/)
 - [https://tiny.cc/](https://tiny.cc/)
