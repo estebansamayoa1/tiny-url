@@ -28,9 +28,6 @@ Resultado => http://su-dominio.com/mi-url
 Al resultado puede agregarle un [boton de "copy"](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
 
 
-Mockup:
-
-![1](img/mock1.png)
 
 ### Funcionamiento
 
@@ -48,6 +45,13 @@ App: recibe [http://su-dominio.com/mi-url]
 
 Browser: [redirect] www.google.com
 ```
+
+
+## Mockup
+
+![1](img/mock1.png)
+
+> observe la ruta en el mockup
 
 ## Ejemplos
 

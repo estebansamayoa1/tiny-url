@@ -18,9 +18,13 @@ En esta vista se mostraran las estadisticas de cada URL.
 Para esto ud debe ingeniar como guardar (que key usar) para el valor de los visitas, un visita cuenta como cada vez que un tinyURL es usado; esta seccion es muy similar [a la anterior](/url-list) con la añadicion de las visitas.
 
 Para esta parte debe ir a la DB a traer:
+
 - tinyURL,OriginalURL (key,val)
 - Visitas para esa tinyURL (key= tinyURL_visits, val = N)
 
 ## Mockup
 
 ![1](img/stats.png)
+
+> observe la ruta en el mockup
+
