@@ -28,8 +28,10 @@ Resultado => http://su-dominio.com/mi-url
 
 ## Funcionamiento
 
-Cuando el usuario pegue en su browser, obviamente su aplicacion respondera y recibira este request debera [REDIRIGIR](https://moz.com/learn/seo/redirection) al usuario a la URL original.
+Cuando el usuario pegue en su browser, obviamente su aplicacion respondera y recibira este request debera [REDIRECT](https://moz.com/learn/seo/redirection) al usuario a la URL original.
 
+
+Esto quiere decir que su app debe responder con el "response code" CORRECTO!.
 
 ```
 Ejemplo:
@@ -47,3 +49,5 @@ Browser: [redirect] www.google.com
 - [https://tiny.cc/](https://tiny.cc/)
 
 ---
+
+> Creame todo lo vimos en clase.
