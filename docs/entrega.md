@@ -14,6 +14,6 @@
 
 
 # You already now how to deliever it ;)
-- FORK it
+- FORK it (tiene que hacer FORK de este proyecto)
 - WORK it
 - DELIVER it

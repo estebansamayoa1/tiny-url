@@ -46,7 +46,6 @@ App: recibe [http://su-dominio.com/mi-url]
 Browser: [redirect] www.google.com
 ```
 
-
 ## Mockup
 
 ![1](img/mock1.png)
