@@ -1,7 +1,7 @@
 
-# Tiny URLs
+## Tiny URLs
 
-## Modo Normal
+### Modo Normal
 En esta vista se podra generar un tinyURL, el usuario ingresa una URL cualquiera (www.google.com por ejemplo) apachara el boton magico y su app debera hacer lo siguiente:
 
 1. Recibir la URL
@@ -12,7 +12,7 @@ En esta vista se podra generar un tinyURL, el usuario ingresa una URL cualquiera
 
 > el generador puede ser una funcion de SU AUTORIA.
 
-## Modo Custom
+### Modo Custom
 
 En esta modalidad sucedera todo lo anterior con la excepcion del paso "2" en donde el usuario ademas del URL tambien podra ingresar un customID (palabra unica que identifique a su URL)
 
@@ -30,9 +30,9 @@ Al resultado puede agregarle un [boton de "copy"](https://www.w3schools.com/howt
 
 Mockup:
 
-![1](img/mock1.jpg)
+![1](img/mock1.png)
 
-## Funcionamiento
+### Funcionamiento
 
 Cuando el usuario pegue en su browser, obviamente su aplicacion respondera y recibira este request debera [REDIRECT](https://moz.com/learn/seo/redirection) al usuario a la URL original.
 

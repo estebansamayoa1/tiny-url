@@ -1,5 +1,5 @@
 
-# URLS
+## URLS
 En esta vista se mostraran todas las URLs convertidas hasta el momento, sera mostrado en una tabla a 2 columnas
 
 | tinyURL                       	|                Original URL                	|
@@ -19,6 +19,6 @@ La ultima opcion es que el usuario podra borrar una URL especifica con un boton 
 ![1](img/urls.png)
 
 
-# Extra
+## Extra
 
 Si gusta puede implementar un metodo "search" que con un search-box le permita al usuario hacer un busqueda de las URLS o tiny URLs.
