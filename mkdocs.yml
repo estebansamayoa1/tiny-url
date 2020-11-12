@@ -1,0 +1,52 @@
+site_name: Tiny URL
+
+nav:
+  - Explicación: index.md
+  - Run: run.md
+  - Entrega: entrega.md
+
+theme:
+  name: material
+  palette:
+    primary: blue grey
+    accent: orange
+
+  logo: "img/logo.png"
+  font:
+    text: "Space Mono"
+    code: "Inconsolata"
+  language: "en"
+  favicon: "img/favicon.ico"
+  #include_sidebar: True
+
+plugins:
+  - search
+  #- markdownextradata: {}
+markdown_extensions:
+  - codehilite
+  - footnotes
+  - admonition
+  - meta
+  # - toc:
+  #     permalink: true
+  # - pymdownx.tasklist:
+  #     custom_checkbox: true
+  - pymdownx.mark
+
+  - pymdownx.extra
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.smartsymbols
+  - pymdownx.progressbar
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
