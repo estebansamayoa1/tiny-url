@@ -307,11 +307,15 @@
                 
                 
                 <h1 id="run">Run<a class="headerlink" href="#run" title="Permanent link">&para;</a></h1>
-<p>Su aplicacion debe correr 100% en docker</p>
-<blockquote>
-<p>Fill this with your instructions on how to run your app.</p>
-</blockquote>
-<div class="highlight"><pre><span></span><code><span class="c1"># IT MUST RUN VIA DOCKER</span>
+<p>Su aplicacion debe correr 100% en docker y docker-compose, instalar redis en su OS no es una opcion.</p>
+<p>Yo le proveo con un scratch project donde ya tengo configurado redis y la app.</p>
+<p>Basta con correr</p>
+<p><code>docker-compose up --build</code></p>
+<p>eso corre:
+- app sencilla de python
+- redis
+- app conectada a redis</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># DEBE CORRER USANDO DOCKER</span>
 <span class="c1"># example 1</span>
 docker run -it -p <span class="m">8080</span>:8080 your-image/love-my-movies:1.20
 
