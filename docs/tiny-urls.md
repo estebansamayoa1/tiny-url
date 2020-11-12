@@ -30,7 +30,7 @@ Al resultado puede agregarle un [boton de "copy"](https://www.w3schools.com/howt
 
 Mockup:
 
-![1](img/tiny-url.jpg)
+![1](img/mock1.jpg)
 
 ## Funcionamiento
 
