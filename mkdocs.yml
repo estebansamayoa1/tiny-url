@@ -34,8 +34,9 @@ markdown_extensions:
   - meta
   - toc:
       permalink: true
-  # - pymdownx.tasklist:
-  #     custom_checkbox: true
+      toc_depth: 3
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.mark
 
   - pymdownx.extra
