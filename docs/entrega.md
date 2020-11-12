@@ -1,3 +1,9 @@
+# web
+
+- utilizar layout.html
+- utilizar herencia de layouts
+- 404, 200, 301 ...... response code handling
+
 
 # Requerido (MUST)
 
