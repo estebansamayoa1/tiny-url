@@ -202,8 +202,6 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-      
-    
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
         1. Tiny URLS
@@ -220,8 +218,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon">
@@ -232,23 +228,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#tiny-urls" class="md-nav__link">
+    Tiny URLs
+  </a>
+  
+    <nav class="md-nav" aria-label="Tiny URLs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#modo-normal" class="md-nav__link">
     Modo Normal
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#modo-custom" class="md-nav__link">
     Modo Custom
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#funcionamiento" class="md-nav__link">
     Funcionamiento
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -345,8 +354,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon">
@@ -357,23 +364,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#tiny-urls" class="md-nav__link">
+    Tiny URLs
+  </a>
+  
+    <nav class="md-nav" aria-label="Tiny URLs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#modo-normal" class="md-nav__link">
     Modo Normal
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#modo-custom" class="md-nav__link">
     Modo Custom
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#funcionamiento" class="md-nav__link">
     Funcionamiento
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -400,8 +420,10 @@
                   
                 
                 
-                <h1 id="tiny-urls">Tiny URLs<a class="headerlink" href="#tiny-urls" title="Permanent link">&para;</a></h1>
-<h2 id="modo-normal">Modo Normal<a class="headerlink" href="#modo-normal" title="Permanent link">&para;</a></h2>
+                  <h1>1. Tiny URLS</h1>
+                
+                <h2 id="tiny-urls">Tiny URLs<a class="headerlink" href="#tiny-urls" title="Permanent link">&para;</a></h2>
+<h3 id="modo-normal">Modo Normal<a class="headerlink" href="#modo-normal" title="Permanent link">&para;</a></h3>
 <p>En esta vista se podra generar un tinyURL, el usuario ingresa una URL cualquiera (<a href="http://www.google.com">www.google.com</a> por ejemplo) apachara el boton magico y su app debera hacer lo siguiente:</p>
 <ol>
 <li>Recibir la URL</li>
@@ -412,7 +434,7 @@
 <blockquote>
 <p>el generador puede ser una funcion de SU AUTORIA.</p>
 </blockquote>
-<h2 id="modo-custom">Modo Custom<a class="headerlink" href="#modo-custom" title="Permanent link">&para;</a></h2>
+<h3 id="modo-custom">Modo Custom<a class="headerlink" href="#modo-custom" title="Permanent link">&para;</a></h3>
 <p>En esta modalidad sucedera todo lo anterior con la excepcion del paso "2" en donde el usuario ademas del URL tambien podra ingresar un customID (palabra unica que identifique a su URL)</p>
 <p><div class="highlight"><pre><span></span><code>Ejemplo:
 
@@ -423,8 +445,8 @@ customID: mi-url
 </code></pre></div>
 Al resultado puede agregarle un <a href="https://www.w3schools.com/howto/howto_js_copy_clipboard.asp">boton de "copy"</a></p>
 <p>Mockup:</p>
-<p><img alt="1" src="img/mock1.jpg" /></p>
-<h2 id="funcionamiento">Funcionamiento<a class="headerlink" href="#funcionamiento" title="Permanent link">&para;</a></h2>
+<p><img alt="1" src="../img/mock1.png" /></p>
+<h3 id="funcionamiento">Funcionamiento<a class="headerlink" href="#funcionamiento" title="Permanent link">&para;</a></h3>
 <p>Cuando el usuario pegue en su browser, obviamente su aplicacion respondera y recibira este request debera <a href="https://moz.com/learn/seo/redirection">REDIRECT</a> al usuario a la URL original.</p>
 <p>Esto quiere decir que su app debe responder con el "response code" CORRECTO!.</p>
 <div class="highlight"><pre><span></span><code>Ejemplo:
@@ -517,7 +539,7 @@ Browser: [redirect] www.google.com
       <script>
         app = initialize({
           base: "..",
-          features: ["navigation.tabs"],
+          features: ["navigation.tabs", "navigation.instant", "navigation.expand"],
           search: Object.assign({
             worker: "../assets/javascripts/worker/search.8e2cddea.min.js"
           }, typeof search !== "undefined" && search)
