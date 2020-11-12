@@ -18,7 +18,7 @@ theme:
 
   logo: "img/logo.png"
   font:
-    text: "Space Mono"
+    text: "Ubuntu"
     code: "Inconsolata"
   language: "en"
   favicon: "img/favicon.ico"
