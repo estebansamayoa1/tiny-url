@@ -3,9 +3,9 @@ site_name: Tiny URL
 nav:
   - Explicación:
       Index: index.md
-      Tiny URLS: tiny-urls.md
-      URL list: url-list.md
-      Stats: stats.md
+      1. Tiny URLS: tiny-urls.md
+      2. URL list: url-list.md
+      3. Stats: stats.md
   - Run: run.md
   - Entrega: entrega.md
 
