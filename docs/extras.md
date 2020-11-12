@@ -9,4 +9,4 @@ Estas son algunas sugerencias de puntos extra:
 
 - hacer registro de la hora en la que se creo el entry y tambien mostrar eso en las vistas de `/stats` & `/urls`
 
-- hacer registro usando dicts, key: hashID y value: {"url": "long-url.com"}
+- hacer registro usando dicts, key: hashID y value: {"url": "long-url.com"} [info aqui](https://stackoverflow.com/questions/32276493/how-to-store-and-retrieve-a-dictionary-with-redis)
