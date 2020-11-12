@@ -26,6 +26,10 @@ Resultado => http://su-dominio.com/mi-url
 
 ```
 
+Mockup:
+
+![1](img/tiny-url.jpg)
+
 ## Funcionamiento
 
 Cuando el usuario pegue en su browser, obviamente su aplicacion respondera y recibira este request debera [REDIRECT](https://moz.com/learn/seo/redirection) al usuario a la URL original.
