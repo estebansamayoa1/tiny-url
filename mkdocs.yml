@@ -1,4 +1,6 @@
 site_name: Tiny URL
+repo_url: https://github.com/cs-ufm/tiny-url
+site_url: https://cs-ufm.github.io/tiny-url/
 
 nav:
   - Explicación:
